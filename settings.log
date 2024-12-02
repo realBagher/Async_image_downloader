@@ -1,0 +1,74 @@
+2024-12-01 18:08:50,726 - test_logger - INFO - This is a test log message!
+2024-12-01 18:08:50,729 - src.infrastructre.make_db - INFO - Starting database schema creation...
+2024-12-01 18:08:50,799 - src.infrastructre.make_db - INFO - Successfully created or verified 'images' table
+2024-12-01 18:08:50,800 - src.infrastructre.make_db - INFO - Successfully created or verified index on 'query' field
+2024-12-01 18:08:50,803 - src.infrastructre.make_db - INFO - Closed the database connection pool
+2024-12-01 18:08:50,803 - src.infrastructre.make_db - INFO - Database schema creation completed successfully
+2024-12-01 18:08:50,803 - src.use_case.use_case - INFO - Starting image query use case for query: 'cats' with max_results: 5
+2024-12-01 18:08:50,867 - src.repositories.postgres - INFO - Successfully connected to the PostgreSQL database
+2024-12-01 18:08:51,945 - src.services.search - INFO - Fetched 5 image URLs
+2024-12-01 18:08:51,945 - src.use_case.use_case - INFO - Found 5 image URLs for query 'cats'
+2024-12-01 18:08:53,003 - src.services.download - INFO - Successfully downloaded image from https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_3x4.jpg
+2024-12-01 18:08:54,601 - src.services.download - INFO - Successfully downloaded image from https://cdn.britannica.com/34/235834-050-C5843610/two-different-breeds-of-cats-side-by-side-outdoors-in-the-garden.jpg
+2024-12-01 18:08:54,603 - src.services.download - INFO - Successfully downloaded image from https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg
+2024-12-01 18:08:55,127 - src.services.download - INFO - Successfully downloaded image from https://cdn.britannica.com/70/234870-050-D4D024BB/Orange-colored-cat-yawns-displaying-teeth.jpg
+2024-12-01 18:08:55,431 - src.services.processing - INFO - Processed image to 800x527
+2024-12-01 18:08:55,439 - src.repositories.postgres - INFO - Inserted image from URL: https://cdn.britannica.com/34/235834-050-C5843610/two-different-breeds-of-cats-side-by-side-outdoors-in-the-garden.jpg
+2024-12-01 18:08:55,439 - src.use_case.use_case - INFO - Successfully processed and stored image from URL: https://cdn.britannica.com/34/235834-050-C5843610/two-different-breeds-of-cats-side-by-side-outdoors-in-the-garden.jpg
+2024-12-01 18:08:55,648 - src.services.processing - INFO - Processed image to 800x573
+2024-12-01 18:08:55,653 - src.repositories.postgres - INFO - Inserted image from URL: https://cdn.britannica.com/70/234870-050-D4D024BB/Orange-colored-cat-yawns-displaying-teeth.jpg
+2024-12-01 18:08:55,653 - src.use_case.use_case - INFO - Successfully processed and stored image from URL: https://cdn.britannica.com/70/234870-050-D4D024BB/Orange-colored-cat-yawns-displaying-teeth.jpg
+2024-12-01 18:08:55,751 - src.services.download - INFO - Successfully downloaded image from https://media.4-paws.org/9/c/9/7/9c97c38666efa11b79d94619cc1db56e8c43d430/Molly_006-2829x1886-2726x1886-1920x1328.jpg
+2024-12-01 18:08:55,960 - src.services.processing - INFO - Processed image to 450x600
+2024-12-01 18:08:55,962 - src.repositories.postgres - INFO - Inserted image from URL: https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_3x4.jpg
+2024-12-01 18:08:55,962 - src.use_case.use_case - INFO - Successfully processed and stored image from URL: https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_3x4.jpg
+2024-12-01 18:08:56,437 - src.services.processing - INFO - Processed image to 800x553
+2024-12-01 18:08:56,440 - src.repositories.postgres - INFO - Inserted image from URL: https://media.4-paws.org/9/c/9/7/9c97c38666efa11b79d94619cc1db56e8c43d430/Molly_006-2829x1886-2726x1886-1920x1328.jpg
+2024-12-01 18:08:56,441 - src.use_case.use_case - INFO - Successfully processed and stored image from URL: https://media.4-paws.org/9/c/9/7/9c97c38666efa11b79d94619cc1db56e8c43d430/Molly_006-2829x1886-2726x1886-1920x1328.jpg
+2024-12-01 18:08:56,476 - src.services.processing - INFO - Processed image to 600x600
+2024-12-01 18:08:56,478 - src.repositories.postgres - INFO - Inserted image from URL: https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg
+2024-12-01 18:08:56,478 - src.use_case.use_case - INFO - Successfully processed and stored image from URL: https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg
+2024-12-01 18:08:56,479 - src.use_case.use_case - INFO - Completed processing and storing 5 images for query 'cats'
+2024-12-01 18:08:56,481 - src.repositories.postgres - INFO - PostgreSQL connection pool closed
+2024-12-01 19:04:44,094 - test_logger - INFO - This is a test log message!
+2024-12-01 19:04:44,097 - src.infrastructre.make_db - INFO - Starting database schema creation...
+2024-12-01 19:04:44,164 - src.infrastructre.make_db - INFO - Successfully created or verified 'images' table
+2024-12-01 19:04:44,165 - src.infrastructre.make_db - INFO - Successfully created or verified index on 'query' field
+2024-12-01 19:04:44,168 - src.infrastructre.make_db - INFO - Closed the database connection pool
+2024-12-01 19:04:44,168 - src.infrastructre.make_db - INFO - Database schema creation completed successfully
+2024-12-01 19:05:22,048 - test_logger - INFO - This is a test log message!
+2024-12-01 19:05:22,051 - src.infrastructre.make_db - INFO - Starting database schema creation...
+2024-12-01 19:05:22,119 - src.infrastructre.make_db - INFO - Successfully created or verified 'images' table
+2024-12-01 19:05:22,120 - src.infrastructre.make_db - INFO - Successfully created or verified index on 'query' field
+2024-12-01 19:05:22,123 - src.infrastructre.make_db - INFO - Closed the database connection pool
+2024-12-01 19:05:22,123 - src.infrastructre.make_db - INFO - Database schema creation completed successfully
+2024-12-01 19:05:30,140 - src.use_case.use_case - INFO - Starting image query use case for query: 'sparrow' with max_results: 5
+2024-12-01 19:05:30,212 - src.repositories.postgres - INFO - Successfully connected to the PostgreSQL database
+2024-12-01 19:05:31,419 - src.services.search - INFO - Fetched 5 image URLs
+2024-12-01 19:05:31,420 - src.use_case.use_case - INFO - Found 5 image URLs for query 'sparrow'
+2024-12-01 19:05:32,324 - src.services.download - INFO - Successfully downloaded image from https://www.allaboutbirds.org/guide/assets/photo/305880301-480px.jpg
+2024-12-01 19:05:32,369 - src.services.processing - INFO - Processed image to 480x360
+2024-12-01 19:05:32,374 - src.repositories.postgres - INFO - Inserted image from URL: https://www.allaboutbirds.org/guide/assets/photo/305880301-480px.jpg
+2024-12-01 19:05:32,374 - src.use_case.use_case - INFO - Successfully processed and stored image from URL: https://www.allaboutbirds.org/guide/assets/photo/305880301-480px.jpg
+2024-12-01 19:05:32,609 - src.services.download - INFO - Successfully downloaded image from https://upload.wikimedia.org/wikipedia/commons/9/9b/House_sparrow_male_in_Prospect_Park_%2853532%29.jpg
+2024-12-01 19:05:33,341 - src.services.download - INFO - Successfully downloaded image from https://www.allaboutbirds.org/guide/assets/photo/305874101-480px.jpg
+2024-12-01 19:05:33,344 - src.services.processing - INFO - Processed image to 480x360
+2024-12-01 19:05:33,347 - src.repositories.postgres - INFO - Inserted image from URL: https://www.allaboutbirds.org/guide/assets/photo/305874101-480px.jpg
+2024-12-01 19:05:33,348 - src.use_case.use_case - INFO - Successfully processed and stored image from URL: https://www.allaboutbirds.org/guide/assets/photo/305874101-480px.jpg
+2024-12-01 19:05:34,240 - src.services.download - INFO - Successfully downloaded image from https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/House_sparrow_male_in_Prospect_Park_%2853532%29.jpg/800px-House_sparrow_male_in_Prospect_Park_%2853532%29.jpg
+2024-12-01 19:05:34,291 - src.services.processing - INFO - Processed image to 772x600
+2024-12-01 19:05:34,295 - src.repositories.postgres - INFO - Inserted image from URL: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/House_sparrow_male_in_Prospect_Park_%2853532%29.jpg/800px-House_sparrow_male_in_Prospect_Park_%2853532%29.jpg
+2024-12-01 19:05:34,296 - src.use_case.use_case - INFO - Successfully processed and stored image from URL: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/House_sparrow_male_in_Prospect_Park_%2853532%29.jpg/800px-House_sparrow_male_in_Prospect_Park_%2853532%29.jpg
+2024-12-01 19:05:34,943 - src.services.download - ERROR - Failed to download https://www.allaboutbirds.org/guide/assets/og/105715551-1200px.jpg: Status 403
+2024-12-01 19:05:34,943 - src.use_case.use_case - WARNING - No data downloaded for URL: https://www.allaboutbirds.org/guide/assets/og/105715551-1200px.jpg
+2024-12-01 19:05:42,604 - src.services.processing - INFO - Processed image to 771x600
+2024-12-01 19:05:42,606 - src.repositories.postgres - INFO - Inserted image from URL: https://upload.wikimedia.org/wikipedia/commons/9/9b/House_sparrow_male_in_Prospect_Park_%2853532%29.jpg
+2024-12-01 19:05:42,607 - src.use_case.use_case - INFO - Successfully processed and stored image from URL: https://upload.wikimedia.org/wikipedia/commons/9/9b/House_sparrow_male_in_Prospect_Park_%2853532%29.jpg
+2024-12-01 19:05:42,608 - src.use_case.use_case - INFO - Completed processing and storing 5 images for query 'sparrow'
+2024-12-01 19:05:42,610 - src.repositories.postgres - INFO - PostgreSQL connection pool closed
+2024-12-02 12:36:21,624 - test_logger - INFO - This is a test log message!
+2024-12-02 12:36:21,645 - src.infrastructre.make_db - INFO - Starting database schema creation...
+2024-12-02 12:36:21,730 - src.infrastructre.make_db - INFO - Successfully created or verified 'images' table
+2024-12-02 12:36:21,733 - src.infrastructre.make_db - INFO - Successfully created or verified index on 'query' field
+2024-12-02 12:36:21,743 - src.infrastructre.make_db - INFO - Closed the database connection pool
+2024-12-02 12:36:21,744 - src.infrastructre.make_db - INFO - Database schema creation completed successfully
