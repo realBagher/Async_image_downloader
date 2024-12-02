@@ -72,3 +72,35 @@
 2024-12-02 12:36:21,733 - src.infrastructre.make_db - INFO - Successfully created or verified index on 'query' field
 2024-12-02 12:36:21,743 - src.infrastructre.make_db - INFO - Closed the database connection pool
 2024-12-02 12:36:21,744 - src.infrastructre.make_db - INFO - Database schema creation completed successfully
+2024-12-02 16:39:23,019 - test_logger - INFO - This is a test log message!
+2024-12-02 16:39:23,022 - infrastructre.make_db - INFO - Starting database schema creation...
+2024-12-02 16:39:23,094 - infrastructre.make_db - INFO - Successfully created or verified 'images' table
+2024-12-02 16:39:23,095 - infrastructre.make_db - INFO - Successfully created or verified index on 'query' field
+2024-12-02 16:39:23,096 - infrastructre.make_db - INFO - Closed the database connection pool
+2024-12-02 16:39:23,096 - infrastructre.make_db - INFO - Database schema creation completed successfully
+2024-12-02 16:39:33,502 - use_case.use_case - INFO - Starting image query use case for query: 'flower' with max_results: 5
+2024-12-02 16:39:33,570 - repositories.postgres - INFO - Successfully connected to the PostgreSQL database
+2024-12-02 16:39:34,679 - services.search - INFO - Fetched 5 image URLs
+2024-12-02 16:39:34,679 - use_case.use_case - INFO - Found 5 image URLs for query 'flower'
+2024-12-02 16:39:35,624 - services.download - INFO - Successfully downloaded image from https://silverfallsseed.com/wp-content/uploads/2015/12/cOSMOS-dAYDREAM-FIELD-20201-PETES-14.jpg
+2024-12-02 16:39:35,960 - services.download - INFO - Successfully downloaded image from https://cdn.sanity.io/images/pn4rwssl/production/65d614e81f87697496be2d9daa8c2c9ce842ba5b-500x750.jpg?w=2880&q=75&auto=format
+2024-12-02 16:39:36,063 - services.processing - INFO - Processed image to 800x533
+2024-12-02 16:39:36,079 - repositories.postgres - INFO - Inserted image from URL: https://silverfallsseed.com/wp-content/uploads/2015/12/cOSMOS-dAYDREAM-FIELD-20201-PETES-14.jpg
+2024-12-02 16:39:36,079 - use_case.use_case - INFO - Successfully processed and stored image from URL: https://silverfallsseed.com/wp-content/uploads/2015/12/cOSMOS-dAYDREAM-FIELD-20201-PETES-14.jpg
+2024-12-02 16:39:36,158 - services.download - INFO - Successfully downloaded image from https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/330px-Flower_poster_2.jpg
+2024-12-02 16:39:36,198 - services.processing - INFO - Processed image to 330x439
+2024-12-02 16:39:36,201 - repositories.postgres - INFO - Inserted image from URL: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/330px-Flower_poster_2.jpg
+2024-12-02 16:39:36,201 - use_case.use_case - INFO - Successfully processed and stored image from URL: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/330px-Flower_poster_2.jpg
+2024-12-02 16:39:36,260 - services.processing - INFO - Processed image to 400x600
+2024-12-02 16:39:36,264 - repositories.postgres - INFO - Inserted image from URL: https://cdn.sanity.io/images/pn4rwssl/production/65d614e81f87697496be2d9daa8c2c9ce842ba5b-500x750.jpg?w=2880&q=75&auto=format
+2024-12-02 16:39:36,265 - use_case.use_case - INFO - Successfully processed and stored image from URL: https://cdn.sanity.io/images/pn4rwssl/production/65d614e81f87697496be2d9daa8c2c9ce842ba5b-500x750.jpg?w=2880&q=75&auto=format
+2024-12-02 16:39:36,746 - services.download - INFO - Successfully downloaded image from https://cdn.britannica.com/84/73184-050-05ED59CB/Sunflower-field-Fargo-North-Dakota.jpg
+2024-12-02 16:39:36,795 - services.download - INFO - Successfully downloaded image from https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/1200px-Flower_poster_2.jpg
+2024-12-02 16:39:36,819 - services.processing - INFO - Processed image to 800x496
+2024-12-02 16:39:36,822 - repositories.postgres - INFO - Inserted image from URL: https://cdn.britannica.com/84/73184-050-05ED59CB/Sunflower-field-Fargo-North-Dakota.jpg
+2024-12-02 16:39:36,822 - use_case.use_case - INFO - Successfully processed and stored image from URL: https://cdn.britannica.com/84/73184-050-05ED59CB/Sunflower-field-Fargo-North-Dakota.jpg
+2024-12-02 16:39:37,037 - services.processing - INFO - Processed image to 451x600
+2024-12-02 16:39:37,040 - repositories.postgres - INFO - Inserted image from URL: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/1200px-Flower_poster_2.jpg
+2024-12-02 16:39:37,041 - use_case.use_case - INFO - Successfully processed and stored image from URL: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/1200px-Flower_poster_2.jpg
+2024-12-02 16:39:37,041 - use_case.use_case - INFO - Completed processing and storing 5 images for query 'flower'
+2024-12-02 16:39:37,044 - repositories.postgres - INFO - PostgreSQL connection pool closed
