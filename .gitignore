@@ -1,0 +1,4 @@
+.env 
+myenv1
+__pycache__
+debug_test.log
