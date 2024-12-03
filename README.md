@@ -79,5 +79,12 @@ fill the required varibales based on the prompts request
 ```python 
 docker exec -it <container_id> bash
 ```
+after that run the following commands
+```python 
+
+cd src
+python main.py 
+
+```
 
 you can find you container id based by using ``` docker ps ``` command 
